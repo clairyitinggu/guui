@@ -1,4 +1,4 @@
-{ 
+{
   "name": "ui",
   "version": "1.0.0",
   "description": "",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/clairyitinggu/ui/issues"
   },
-  "homepage": "https://github.com/clairyitinggu/ui#readme"
+  "homepage": "https://github.com/clairyitinggu/ui#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
 }
