@@ -1,4 +1,6 @@
-const path = (require("path").exports = {
+const path = require("path");
+module.exports = {
+  mode: "development",
   entry: {
     index: "./lib/index.tsx",
   },
@@ -15,4 +17,4 @@ const path = (require("path").exports = {
       },
     ],
   },
-});
+};
